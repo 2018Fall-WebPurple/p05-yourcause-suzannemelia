@@ -1,0 +1,64 @@
+/*
+* Suzanne Melia
+* November 6, 2018 
+* "Your Cause"  
+*/ 
+
+/*The Universal selector */
+
+* {margin:0;
+   padding:0;}
+
+header { 
+margin: 10px;
+color: navy;
+border-bottom: 5px solid red;}
+/* This is the color, margin, and the border-bottom also includes a straight line across the page displayed in the header section*/
+
+body {
+background-color: lightyellow;
+font-family: sans-serif;
+margin: auto;
+width: 90%;
+} 
+/* The background color,font displayed, margin, and width throughout the body paragraph */
+
+a{
+    color:blue
+}
+
+h1 {font-family: "Helvetica";
+    color: navy;}
+
+
+#ALS{height: 200px; width: 200px; float:left; padding: 0px; margin:15px; border: 2px dashed navy;}
+#alex {width:225px; height:220px; float:left; padding: 0px; margin:15px; border: 2px solid navy;}
+#lemonade {width:225px; height:220px; float: left; padding: 0px; margin: 15px; border: 2px solid navy;20px;}
+#girls {width:225px; height:220px; float: left; padding: 0px; margin: 15px; border: 2px solid navy;}
+#family5 {width:225px; height:220px; float: left; padding: 0px; margin: 15px; border: 2px solid navy;}
+#kids {width:225px; height:220px; float: left; padding: 0px; margin: 15px; border: 2px solid navy;}
+.nofloat {clear:both;} 
+/* I made sure this photo was not floated */
+/*These are the photos that are displayed on the web page, and clarifies the height and width of the photos, as well as the padding, margin, and border */ 
+
+
+
+h2 {font-family: "Helvetica";}
+#cup {height: 200px; width: 300px; float:right; padding: 0px; border: 2px solid navy; margin-right: 80px;margin-bottom: 20px;}  
+/* when adding border: I made sure to say the size, style, and color of the border.  */
+
+
+ul {margin-left: 25px;}
+
+footer {
+    font-family: serif;
+    border-top: 5px solid red;
+} 
+h5 {float: right;}
+/* The h5 will be displayed smaller text becuase the larger the "h" the smaller the text gets */
+
+a{
+    color:purple;
+    font-size: 100%;
+}
+/* By changing the color and font-size, the text has color and a certain size */
